@@ -1,0 +1,74 @@
+.catalogo{
+
+    .descripcion{
+        background-color: darkgray;
+        border: 1px black solid;
+        border-radius: 10px;
+    }
+
+    .descripcion1{
+        background-color: darkgray;
+        border: 1px black solid;
+        border-radius: 10px;
+        margin-top: 16rem;
+    }
+
+    img{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .catalogo-contenedor{
+        margin-top: 7rem;
+
+        .veladores, .souvenirs, .personalizados{
+            width: 25rem;
+            height: 40rem;
+            margin: 1rem;
+            ul{
+                list-style: none;
+                li{
+                    color: black;
+                    font-size: 16px;
+                }
+            }
+
+            h2{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                font-weight: bolder;
+            }
+    
+            h3{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        .veladores, .personalizados{
+            background-color: darkcyan;
+            border: 1px darkcyan solid;
+            border-radius: 10px;
+            
+            
+        }
+
+        .souvenirs{
+            background-color: black;
+            border: 1px black solid;
+            border-radius: 10px;
+            color: white;
+            ul{
+                li{
+                    color: white;
+                }
+            }
+        }
+
+    }
+    
+}

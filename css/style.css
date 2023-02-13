@@ -1,0 +1,260 @@
+body {
+  background-color: black;
+}
+body h1 {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 400%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 488px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+header {
+  background-image: url(../../img/logo3dprint\ -\ copia.jpeg);
+  width: auto;
+  height: 20rem;
+  background-color: black;
+  background-repeat: repeat-x;
+}
+
+nav {
+  background-color: darkgrey;
+  border: 1px solid darkblue;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+nav .navegacion {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav .navegacion .barra-nav {
+  list-style: none;
+}
+nav .navegacion .barra-nav .item-nav {
+  color: black;
+  font-size: 150%;
+}
+nav .navegacion .barra-nav .item-nav :hover {
+  font-size: 200%;
+  font-weight: bold;
+  color: aqua;
+}
+
+main {
+  border: 1px black solid;
+  border-radius: 10px;
+  background: rgb(210, 43, 43);
+  background: linear-gradient(270deg, rgb(210, 43, 43) 9%, rgb(252, 3, 198) 83%, rgb(0, 129, 255) 100%);
+  margin-top: 3px;
+}
+main .multimedia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+main .multimedia .dato, main .multimedia .funcionamiento, main .multimedia .taller {
+  width: 25rem;
+  height: 40rem;
+}
+main .multimedia .dato, main .multimedia .funcionamiento {
+  background-color: coral;
+  border: 1px coral solid;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+main .multimedia .dato, main .multimedia .taller {
+  margin-left: 2rem;
+}
+main .multimedia .taller {
+  background-color: darkgray;
+  border: 1px darkgrey solid;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+main .multimedia p {
+  padding: 3rem;
+  margin: 1rem;
+  font-size: 100%;
+  color: black;
+}
+main .multimedia .funcionamiento__video {
+  width: 15rem;
+  height: 15rem;
+}
+main .multimedia img {
+  width: 15rem;
+  height: 15rem;
+}
+
+footer {
+  background-color: darkgray;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+footer p {
+  color: white;
+  font-size: 85%;
+}
+footer .footer-redes h5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-redes .lista-redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+footer .footer-redes .lista-redes .redes {
+  list-style: none;
+  width: 5rem;
+  height: 5rem;
+  color: white;
+  padding: 3px;
+}
+
+.materiaprima {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.materiaprima img {
+  width: 15rem;
+  height: 15rem;
+}
+.materiaprima .PLA, .materiaprima .ABS {
+  margin: 2rem;
+  width: 20rem;
+  height: auto;
+  background-color: aquamarine;
+  border: 1px black solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.materiaprima .FLEX {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 20rem;
+  height: auto;
+  background-color: crimson;
+  border: 1px black solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.materiaprima h3 {
+  align-items: center;
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+.catalogo .descripcion {
+  background-color: darkgray;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+.catalogo .descripcion1 {
+  background-color: darkgray;
+  border: 1px black solid;
+  border-radius: 10px;
+  margin-top: 16rem;
+}
+.catalogo img {
+  width: 15rem;
+  height: 15rem;
+}
+.catalogo .catalogo-contenedor {
+  margin-top: 7rem;
+}
+.catalogo .catalogo-contenedor .veladores, .catalogo .catalogo-contenedor .souvenirs, .catalogo .catalogo-contenedor .personalizados {
+  width: 25rem;
+  height: 40rem;
+  margin: 1rem;
+}
+.catalogo .catalogo-contenedor .veladores ul, .catalogo .catalogo-contenedor .souvenirs ul, .catalogo .catalogo-contenedor .personalizados ul {
+  list-style: none;
+}
+.catalogo .catalogo-contenedor .veladores ul li, .catalogo .catalogo-contenedor .souvenirs ul li, .catalogo .catalogo-contenedor .personalizados ul li {
+  color: black;
+  font-size: 16px;
+}
+.catalogo .catalogo-contenedor .veladores h2, .catalogo .catalogo-contenedor .souvenirs h2, .catalogo .catalogo-contenedor .personalizados h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+}
+.catalogo .catalogo-contenedor .veladores h3, .catalogo .catalogo-contenedor .souvenirs h3, .catalogo .catalogo-contenedor .personalizados h3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.catalogo .catalogo-contenedor .veladores, .catalogo .catalogo-contenedor .personalizados {
+  background-color: darkcyan;
+  border: 1px darkcyan solid;
+  border-radius: 10px;
+}
+.catalogo .catalogo-contenedor .souvenirs {
+  background-color: black;
+  border: 1px black solid;
+  border-radius: 10px;
+  color: white;
+}
+.catalogo .catalogo-contenedor .souvenirs ul li {
+  color: white;
+}
+
+.main-contacto .contacto {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin: 3rem;
+}
+.main-contacto .contacto .whatsapp, .main-contacto .contacto .instagram, .main-contacto .contacto .facebook {
+  width: 15rem;
+  height: 15rem;
+  margin: 3rem;
+}
+
+/*# sourceMappingURL=style.css.map */

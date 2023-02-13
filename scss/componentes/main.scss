@@ -1,0 +1,61 @@
+main{
+    border: 1px black solid;
+    border-radius: 10px;
+    background: rgb(210,43,43);
+    background: linear-gradient(270deg, rgba(210,43,43,1) 9%, rgba(252,3,198,1) 83%, rgba(0,129,255,1) 100%);
+    margin-top: 3px;
+
+    .multimedia{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .dato, .funcionamiento, .taller{
+            width: 25rem;
+            height: 40rem;
+        }
+        
+        .dato, .funcionamiento{
+            background-color: coral;
+            border: 1px coral solid;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .dato, .taller{
+            margin-left: 2rem;
+        }
+
+        .taller{
+            background-color: darkgray;
+            border: 1px darkgrey solid;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        p{
+            padding: 3rem;
+            margin: 1rem;
+            font-size: 100%;
+            color: black;
+        }
+
+        .funcionamiento__video{
+            width: 15rem;
+            height: 15rem;
+        }
+
+        img{
+            width: 15rem;
+            height: 15rem;
+        } 
+        
+    }
+
+}

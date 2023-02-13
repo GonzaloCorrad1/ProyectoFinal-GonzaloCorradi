@@ -1,0 +1,47 @@
+.materiaprima{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    img{
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .PLA, .ABS{
+        margin: 2rem;
+        width: 20rem;
+        height: auto;
+        background-color: aquamarine;
+        border: 1px black solid;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FLEX{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 20rem;
+        height: auto;
+        background-color: crimson;
+        border: 1px black solid;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h3{
+        align-items: center;
+        font-size: 150%;
+        font-weight: bolder;
+    }
+}

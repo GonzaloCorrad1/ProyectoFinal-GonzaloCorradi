@@ -1,0 +1,15 @@
+.main-contacto{
+    .contacto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        margin: 3rem ;
+        .whatsapp, .instagram, .facebook{
+            width: 15rem;
+            height: 15rem;
+            margin: 3rem;
+        }
+    }
+}

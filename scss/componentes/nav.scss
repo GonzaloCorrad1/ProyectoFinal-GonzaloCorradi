@@ -1,0 +1,30 @@
+nav{
+    background-color: darkgrey;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+    .navegacion{
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .barra-nav{
+            list-style: none;
+
+            .item-nav{
+                color: black;
+                font-size: 150%;
+                :hover{
+                    font-size: 200%;
+                    font-weight: bold;
+                    color: aqua;
+                }
+            }
+        }
+    }
+
+}
