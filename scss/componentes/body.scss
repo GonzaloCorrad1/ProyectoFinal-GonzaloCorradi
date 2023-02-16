@@ -11,7 +11,7 @@ body{
         align-items: center;
     }
 
-    @media (min-width: 488px) {
+    @media (max-width: 488px) {
         padding: 0;
         margin: 0;
     } 
